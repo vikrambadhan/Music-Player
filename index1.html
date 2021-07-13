@@ -1,0 +1,598 @@
+	<html>
+		<head>
+	<title>Music Player</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- ---------------Navigation bar--------------- -->
+	<section id="navigation-section">
+		<div id="nav-bar">
+			<img class="musicplayer" src="images/musicplayer.png">
+			<p class="header">Ninja Studio</p>
+
+			<div class="search-bar">
+				<i class="fas fa-search"></i>
+				<input type="text" placeholder="Search">
+				<a href=""><i class="fas fa-microphone"></i></a>
+			</div>
+			<a href=""><i class="fas fa-bell"></i></a>
+			<img class="profile-pic" src="images/profile.jpg">
+
+
+		</div>
+
+        <!-- ---------Dropdown visible on small screens only------------- -->
+		<div class="dropdown">
+			<button class="toggle-div"><i class="fas fa-bars"></i></button>
+			<div class="dropdown-content">
+				<ul>
+					<li>
+						<img class="profile-img" src="images/profile.jpg">
+					</li><br>
+					<li>
+						<div class="search-bar">
+							<i class="fas fa-search"></i>
+							<input type="text" placeholder="Search">
+							<a href=""><i class="fas fa-microphone"></i></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+
+
+
+
+
+
+    <!-- -----------Main Body------------ -->
+	<main>
+		<div class="main-body">
+		<!-- ----------Carousel Images----------- -->
+			<div class="div1">
+				<img class="img1" src="images/cover20.jpg">
+				<img class="img2" src="images/cover19.jpg">
+				<img class="img3" src="images/cover21.jpg">
+			</div>
+			<br>
+			<!-- -------------Latest Release------------- -->
+			<h3 class="top-heading">Latest Release</h3>
+			<div class="latest-release">
+				<div class="songs">
+				    <!-- -------------Song 1------------- -->
+					<img src="images/cover1.jpg">
+					<div class="song-desc">
+						<font style="font-weight:bold;">Pain</font>
+						<div class="btn-div b1">
+							<button class="song-drop">
+								<i class="fas fa-ellipsis-h"></i>
+							</button>
+							<!-- --------------Dropdown------------- -->
+							<div class="song-content">
+								<ul class="list">
+									<li><a class="link" href=""><i class="fas fa-play"></i> Play Now</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-heart"></i> Add to Favourites</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-exclamation-circle"></i> Get info</a></li>
+								</ul>
+
+
+							</div>
+						</div>
+
+					    <!-- --------------Date and Time-------------- -->
+						<br><font style="font-size:13px;">February 23, 2020</font>
+						<span class="time-span"><font style="font-size:13px;">4:44</font></span>
+
+					</div>
+				</div>
+				<div class="songs">
+				    <!-- -------------Song 2 ---------------->
+					<img src="images/cover2.jpg">
+					<div class="song-desc">
+						<font style="font-weight:bold;">Perfect</font>
+						<div class="btn-div b2" >
+							<button class="song-drop">
+								<i class="fas fa-ellipsis-h"></i>
+							</button>
+							<!-- ----------------Dropdown------------- -->
+							<div class="song-content">
+								<ul class="list">
+									<li><a class="link" href=""><i class="fas fa-play"></i> Play Now</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-heart"></i> Add to Favourites</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-exclamation-circle"></i> Get info</a></li>
+								</ul>
+
+
+							</div>
+						</div>
+						<!-- -----------------Date and Time------------- -->
+						<br><font style="font-size:13px;">February 23, 2020</font>
+						<span class="time-span"><font style="font-size:13px;">4:44</font></span>
+					</div>
+				</div>
+				<div class="songs">
+				    <!-- ----------------Song 3---------------- -->
+					<img src="images/cover4.jpg">
+					<div class="song-desc">
+						<font style="font-weight:bold;">For You</font>
+						<div class="btn-div b3">
+							<button class="song-drop">
+								<i class="fas fa-ellipsis-h"></i>
+							</button>
+							<!-- ----------------Dropdown-------------- -->
+							<div class="song-content">
+								<ul class="list">
+									<li><a class="link" href=""><i class="fas fa-play"></i> Play Now</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-heart"></i> Add to Favourites</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-exclamation-circle"></i> Get info</a></li>
+								</ul>
+
+
+							</div>
+						</div>
+						<!-- ------------Date and Time----------- -->
+						<br><font style="font-size:13px;">February 23, 2020</font>
+						<span class="time-span"><font style="font-size:13px;">4:44</font></span>
+					</div>
+				</div>
+				<div class="songs">
+				    <!-- ------------Song 4------------- -->
+					<img src="images/cover5.png">
+					<div class="song-desc">
+						<font style="font-weight:bold;">Dynamite</font>
+						<div class="btn-div b4">
+							<button class="song-drop">
+								<i class="fas fa-ellipsis-h"></i>
+							</button>
+							<!-- ----------Dropdown------------- -->
+							<div class="song-content">
+								<ul class="list">
+									<li><a class="link" href=""><i class="fas fa-play"></i> Play Now</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-heart"></i> Add to Favourites</a></li>
+									<hr>
+									<li><a class="link" href=""><i class="fas fa-exclamation-circle"></i> Get info</a></li>
+								</ul>
+
+
+							</div>
+						</div>
+						<!-- ------------Date and Time----------- -->
+						<br><font style="font-size:13px;">February 23, 2020</font>
+						<span class="time-span"><font style="font-size:13px;">4:44</font></span>
+					</div>
+				</div>
+			</div>
+			<!-- ----------Popular Artists---------- -->
+			<h3 class="artist-heading">Popular Artists</h3>
+			<div class="artists">
+		        <!-- ----------Artist 1----------- -->
+			    <figure>
+			    	<a href="index2.html"><img src="images/cover7.jpg"></a>
+			    	<figcaption>Ed Sheeran</figcaption>
+			    </figure>
+			    <!-- -----------Artist 2------------ -->
+			    <figure>
+			    	<a href="index2.html"><img src="images/cover24.jpg"></a>
+			    	<figcaption>Selena Gomez</figcaption>
+			    </figure>
+			    <!-- -----------Artist 3---------- -->
+			    <figure>
+			    	<a href="index2.html"><img src="images/cover8.jpg"></a>
+			    	<figcaption>ColdPay</figcaption>
+			    </figure>
+			    <!-- -----------Artist 4------------ -->
+			    <figure>
+			    	<a href="index2.html"><img src="images/cover9.jpg"></a>
+			    	<figcaption>Zayn</figcaption>
+			    </figure>
+			    <!-- ------------Artist 5------------ -->
+			    <figure>
+			    	<a href="index2.html"><img src="images/cover22.jpg"></a>
+			    	<figcaption>Taylor Swift</figcaption>
+			    </figure>
+			    <!-- ------------Artist 6------------- -->
+			    <figure>
+			    	<a href="index2.html"><img src="images/cover10.jpg"></a>
+			    	<figcaption>Bruno Mars</figcaption>
+			    </figure>
+			    <!-- ---------Artist 7---------- -->
+			    <figure>
+			    	<a href="index2.html"><img src="images/cover23.jpg"></a>
+			    	<figcaption>Justin Bieber</figcaption>
+			    </figure>
+				
+			</div>
+			<!-- Moods Div -->
+			<div class="moods">
+				<figure>
+					<img class="moods-header" src="images/cover25.jpg">
+				</figure>
+				<!-- ------------Mood-Love------------ -->
+				<figure>
+					<img src="images/cover11.jpg">
+					<figcaption>LOVE</figcaption>
+				</figure>
+				<!-- ------------Mood-Retro----------- -->
+				<figure>
+				     <img src="images/cover12.jpg">
+				     <figcaption>RETRO</figcaption>
+				</figure>
+				<!-- ------------Mood-Chill----------- -->
+				<figure>
+					<img src="images/cover13.jpg">
+					<figcaption>CHILL</figcaption>
+				</figure>
+				<!-- ------------Mood-Rock------------- -->
+				<figure>
+					<img src="images/cover14.jpg">
+					<figcaption>ROCK</figcaption>
+				</figure>
+				<!-- ------------Mood-Pop--------------- -->
+				<figure>
+					<img src="images/cover15.jpg">
+					<figcaption>POP</figcaption>
+				</figure>
+				<!-- -----------Mood-Emotional---------- -->
+				<figure>
+					<img src="images/cover26.jpg">
+					<figcaption>EMOTIONAL</figcaption>
+				</figure>
+			</div>
+			
+			<!-- Music Theme Div -->
+			<div class="music-theme">
+		        <!-- -----------Theme 1------------ -->
+			    <figure>
+			    	<img src="images/cover16.jpg">
+			    	<figcaption class="fig-theme1">PARTY</figcaption>
+			    </figure>
+			    <!-- --------Theme 2----------- -->
+			    <figure>
+			    	<img src="images/cover18.jpg">
+			    	<figcaption class="fig-theme2">ELECTRONIC</figcaption>
+			    </figure>
+			    <!-- ---------Theme 3---------- -->
+			    <figure>
+			    	<img src="images/cover17.jpg">
+			    	<figcaption class="fig-theme3">ROADTRIP</figcaption>
+			    </figure>
+			</div>
+			<!-- Latest English Songs -->
+			<h3>Latest English</h3>
+			<div class="latest-eng">
+			    <!-- ----------Song 1---------- -->
+				<figure>
+					<img src="images/cover5.png">
+					<figcaption><font style="font-weight:bold;">Dynamite</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 2---------- -->
+				<figure>
+					<img src="images/cover4.jpg">
+					<figcaption><font style="font-weight:bold;">For You</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 3---------- -->
+				<figure>
+					<img src="images/cover6.png">
+					<figcaption><font style="font-weight:bold;">Despacito</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 4---------- -->
+				<figure>
+					<img src="images/cover1.jpg">
+					<figcaption><font style="font-weight:bold;">Pain</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 5---------- -->
+				<figure>
+					<img src="images/cover2.jpg">
+					<figcaption><font style="font-weight:bold;">Perfect</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 6---------- -->
+				<figure>
+					<img src="images/cover5.png">
+					<figcaption><font style="font-weight:bold;">Dynamite</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+			</div>
+			
+			<!-- Latest Hindi Songs -->
+			<h3>Latest Hindi</h3>
+			<div class="latest-hindi">
+			    <!-- ----------Song 1---------- -->
+				<figure>
+					<img src="images/cover5.png">
+					<figcaption><font style="font-weight:bold;">Dynamite</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 2---------- -->
+				<figure>
+					<img src="images/cover4.jpg">
+					<figcaption><font style="font-weight:bold;">For You</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 3---------- -->
+				<figure>
+					<img src="images/cover6.png">
+					<figcaption><font style="font-weight:bold;">Despacito</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 4---------- -->
+				<figure>
+					<img src="images/cover1.jpg">
+					<figcaption><font style="font-weight:bold;">Pain</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 5---------- -->
+				<figure>
+					<img src="images/cover2.jpg">
+					<figcaption><font style="font-weight:bold;">Perfect</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+				<!-- ----------Song 6---------- -->
+				<figure>
+					<img src="images/cover5.png">
+					<figcaption><font style="font-weight:bold;">Dynamite</font><br><font style="font-size:13px;">February 23, 2020</font></figcaption>
+				</figure>
+			</div>
+
+		</div>
+	</main>
+
+
+
+
+
+
+
+    <!-- -------------------------------------Aside Section----------------------------------- -->
+	<aside>
+		<div class="aside-sec">
+			<h2 class="queue-head">Queue 
+			    <div class="queue-btn">
+	            
+		            <!-- Dropdown -->
+			        <button>Queue <i class="fas fa-caret-down"></i></button>
+			        <div class="queue-content">
+			            <ul>
+			            	<li>
+			            		<a href="">Playlists</a>
+			            	</li><hr>
+			            	<li>
+			            		<a href="">Favourite songs</a>
+			            	</li>
+			            </ul>
+			        	
+			        	
+			        </div>
+				</div>
+			</h2>
+			<div>
+			    <!-- ------------------------------Queue Items-------------------------------- -->
+				<ol>
+					<li>
+						<img src="images/cover5.png">
+						<span>Dynamite </span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover1.jpg">
+						<span>Pain &nbsp; &nbsp; &nbsp; &nbsp;</span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover2.jpg">
+						<span>Perfect &nbsp; &nbsp; </span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover4.jpg">
+						<span>For You &nbsp; &nbsp;</span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover6.png">
+						<span>Despacito </span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover5.png">
+						<span>Dynamite &nbsp;</span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover1.jpg">
+						<span>Pain &nbsp; &nbsp; &nbsp; &nbsp; </span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover2.jpg">
+						<span>Perfect&nbsp; &nbsp; &nbsp;</span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover4.jpg">
+						<span>For You&nbsp; &nbsp; </span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover6.png">
+						<span>Despacito&nbsp;</span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover5.png">
+						<span>Dynamite &nbsp;</span><i class="far fa-heart"></i>
+					</li>
+					<li>
+						<img src="images/cover1.jpg">
+						<span>Pain&nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; </span><i class="far fa-heart"></i>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</aside>
+	
+	<!-- ---------------------------------Footer------------------------------ -->
+	<footer class="play-bar">
+        <div class="footer-container">
+            <div class="playing-song">
+                <div class="playing-song-img-container">
+                    <img class="playing-song-img" src="images/cover2.jpg" alt="worry-bout-us">
+                </div>
+                <!-- Current Song Playing -->
+                <div class="playing-song-details">
+                    <h4>Perfect</h4>
+                    <p>Ed Sheeran</p>
+                </div>
+                <!-- Icons -->
+                <div class="fav-icon-bar">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                </div>
+            </div>
+
+           <!-- ------------------------------Song Controls------------------------- -->
+            <div class="footer-controls">
+                <div class="footer-controls-button">
+                    <div class="icon-size" id="  shuffle">
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <div class="icon-size" id="previous">
+                        <i class="fas fa-backward"></i>
+                    </div>
+                    <input type="checkbox" id="play-pause">
+                    <label for="play-pause">
+                        <div id="play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div id="pause">
+                            <i class="fas fa-pause"></i>
+                        </div>
+                    </label>
+                    <div class="icon-size" id="next">
+                        <i class="fas fa-forward"></i>
+                    </div>
+                    <div class="icon-size" id="repeat">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                </div>
+                <div class="footer-controls-progress">
+                    <p>1:05</p>
+                    <input type="range">
+                    <p>4:44</p>
+                </div>
+            </div>
+
+            <div class="sound-controls">
+                <div id="queue">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div id="cast">
+                    <i class="fab fa-chromecast"></i>
+                </div>
+
+                <div id="volume-dwn">
+                    <i class="fas fa-volume-down"></i>
+                </div>
+                <input class="vol-control" type="range">
+                <div id="volume-up">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+
+            </div>
+
+           <!-- Queue-button -->
+            <div class="queue-open">
+                <label for="queue-chk">
+                    <span>Queue</span>
+                    <i class="fas fa-arrows-alt-v"></i>
+                </label>
+            </div>
+        </div>
+        <input id="queue-chk" type="checkbox">
+        <div class="queue-bottom-section">
+
+           <hr>
+            <div class="queue-songs-list">
+
+               <!-- -------------------------Queue Items----------------------- -->
+                <div class="playing-now queue-song">
+                    <div class="queue-img-container">
+                        <img class="queue-img" src="images/cover1.jpg" alt="pain">
+                    </div>
+                    <div class="queue-song-details">
+                        <h4>Pain  <i class="far fa-heart f1"></i></h4>
+                        <p>Ryan Jones</p>
+                    </div>
+                </div>
+ 
+                <div class="queue-song">
+                    <div class="queue-img-container">
+                        <img class="queue-img" src="images/cover2.jpg" alt="perfect">
+                    </div>
+                    <div class="queue-song-details">
+                        <h4>Perfect <i class="far fa-heart f2"></i></h4>
+                        <p>Ed Sheeran</p>
+                    </div>
+                </div>
+
+                <div class="queue-song">
+                    <div class="queue-img-container">
+                        <img class="queue-img" src="images/cover4.jpg" alt="for-you">
+                    </div>
+                    <div class="queue-song-details">
+                        <h4>For You <i class="far fa-heart f3"></i></h4>
+                        <p>Selena Gomez</p>
+                    </div>
+                </div>
+
+                <div class="queue-song">
+                    <div class="queue-img-container">
+                        <img class="queue-img" src="images/cover5.png" alt="dynamite">
+                    </div>
+                    <div class="queue-song-details">
+                        <h4>Dynamite <i class="far fa-heart f4"></i></h4>
+                        <p>BTS</p>
+                    </div>
+                </div>
+
+                <div class="queue-song">
+                    <div class="queue-img-container">
+                        <img class="queue-img" src="images/cover6.png" alt="despacito">
+                    </div>
+                    <div class="queue-song-details">
+                        <h4>Despacito <i class="far fa-heart f5"></i></h4>
+                        <p>Luis Fonsi</p>
+                    </div>
+                </div>
+
+                <div class="queue-song">
+                	<div class="queue-img-container">
+                		<img class="queue-img" src="images/cover1.jpg" alt="in-the-end">
+                	</div>
+                	<div class="queue-song-details">
+                		<h4>Pain <i class="far fa-heart f6"></i></h4>
+                		<p>Ryan Jones</p>
+                	</div>
+                </div>
+            </div>
+         </div>
+
+	</footer>
+    </body>
+
+ </html>
